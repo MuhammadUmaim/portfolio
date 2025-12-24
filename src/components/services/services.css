@@ -71,12 +71,10 @@
 
 .services__modal-content {
     background-color: var(--body-color);
-    box-shadow: 0px 0px 25px white;
     position: relative;
     width: 500px;
     padding: 4.5rem 2.5rem 2.5rem 2.5rem;
     border-radius: 1.5rem;
-    /* text-align: center; */
     max-height: 90vh;
     overflow-y: auto;
 }
@@ -96,6 +94,7 @@
 .services__modal-description {
     text-align: center;
 }
+
 
 
 .services__modal-title {
@@ -140,6 +139,54 @@
 
 
 
+@media screen and (max-width:325px) {
+    /* Small phones: make modal almost full-viewport width and constrain height */
+    .services__modal {
+        padding: 0 0.5rem;
+    }
 
+    .services__modal-content {
+        width: 95%;
+        max-width: 420px;
+        padding: 2.5rem 1rem;
+        border-radius: 0.9rem;
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+
+    .services__modal-title {
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .services__modal-description {
+        padding: 0 .75rem;
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .services__modal-service {
+        column-gap: 0.5rem;
+    }
+
+    .services__modal-info {
+        font-size: 0.85rem;
+        padding: 0 0.4rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    /* Slightly larger phones: keep modal comfortably sized */
+    .services__modal-content {
+        width: 90%;
+        padding: 3rem 1.25rem;
+        border-radius: 1rem;
+        max-height: 90vh;
+    }
+
+    .services__modal-description {
+        padding: 0 1rem;
+    }
+}
 
 

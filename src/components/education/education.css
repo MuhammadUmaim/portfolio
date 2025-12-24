@@ -1,0 +1,16 @@
+.education__1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.date {
+    font-size: var(--smaller-font-size);
+    /* color: red; */
+}
+
+.education {
+    font-size: var(--normal-font-size);
+}
