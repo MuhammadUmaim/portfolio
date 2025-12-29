@@ -189,4 +189,17 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .services__content {
+        /* reduce heavy left padding on tablets */
+        padding: 3rem 1.25rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .services__content {
+        padding: 2rem 0.75rem 1.5rem 0.75rem;
+    }
+}
+
 

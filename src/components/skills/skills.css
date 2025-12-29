@@ -68,7 +68,10 @@
  }
 
  @media screen and (max-width:768px) {
-
+    .skills__content {
+        /* reduce horizontal padding on tablet/small screens */
+        padding: 1.5rem 1.75rem;
+    }
  }
 
  @media screen and (max-width:576px) {

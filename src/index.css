@@ -121,6 +121,8 @@ img {
 
 .section {
   padding: 6rem 0 2rem;
+  /* ensure anchored sections are not hidden under the fixed header */
+  scroll-margin-top: calc(var(--header-height) + 1rem);
 }
 
 .section__title {

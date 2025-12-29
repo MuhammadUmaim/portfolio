@@ -49,8 +49,12 @@
     color: var(--title-color-dark);      
 }
 
-
-
+/* Change Background Header */
+.header.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    transition: box-shadow .3s, background-color .3s;
+    /* background-color: var(--body-color); */
+}
 
 
 
@@ -111,6 +115,11 @@
     .nav__toggle ,
     .nav__close {
         display: block;
+    }
+
+    /* Shadow direction for bottom-fixed header */
+    .header.scroll-header {
+        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
     }
 
 }
