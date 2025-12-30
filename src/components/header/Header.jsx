@@ -33,7 +33,7 @@ const Header = () => {
         <nav className="nav container">
             <a href="index.html" className="nav__logo">Umaim</a>
 
-            <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+            <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                 <ul className="nav__list grid">
 
                     <li className="nav__item">
